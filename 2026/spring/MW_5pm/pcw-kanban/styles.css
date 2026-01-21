@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  background: #f4f6f8;
+}
+
+/* Header */
+.header {
+  background: #111827;
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header button {
+  background: #374151;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Board */
+.board {
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+  overflow-x: auto;
+}
+
+/* Columns */
+.column {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 12px;
+  min-width: 220px;
+  flex: 1;
+}
+
+.column h2 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #111827;
+}
+
+/* Tasks */
+.task {
+  background: #f3f4f6;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 16px;
+  color: #6b7280;
+  font-size: 12px;
+}
